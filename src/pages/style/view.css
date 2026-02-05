@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+}
+.btn-menu,
+.btn-direction,
+.btn-thema{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.btn-menu{
+    position: fixed;
+    top: 3dvh;
+    right: 2rem;
+    z-index: 1000;
+}
+.btn-direction{
+    position: absolute;
+    top: 50dvh;
+    right: 2rem;
+}
+.btn-thema{
+    position: fixed;
+    z-index: 10;
+    left: 2rem;
+    bottom: 3dvh;
+}
+@media screen and (max-width:1200px) {
+    .homeBG{
+        /* background-image: url(../../img/skateBG.jpeg); */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100dvh;
+        transition: background-image 0.3s ease;
+    }
+    .bg-left{
+        background-image: url(../../img/skateBG.jpeg);
+    }
+    .bg-right{
+        background-image: url(../../img/skateGBG.jpeg);
+    }
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100dvh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+    }
+    .navbar nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar nav ul li{
+        padding: 2rem 0;
+    }
+    .navbar nav ul li a{
+        color: white;
+        font-family: cursive;
+    }
+    .navbar nav ul li a:hover{
+        color: yellow;
+        transition: all 300ms ease;
+    }
+}
