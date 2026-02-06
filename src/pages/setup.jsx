@@ -1,6 +1,6 @@
 
 import { useState } from "react"
-import { SetupSB } from "./setup/SetupSB.JS"
+import { SetupSB } from "./setup/SetupSB.js"
 import "./style/setup.css"
 
 import GuiaSetup from "./setup/guiaSetup.jpg"
