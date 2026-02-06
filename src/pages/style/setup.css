@@ -1,0 +1,36 @@
+@media screen and (max-width:1200px){
+    .setup-pri{
+        width: 100%;
+        max-height: 100dvh;
+    }
+    .setup-item {
+        list-style: disc;
+    }
+
+    .setup-title {
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: .5rem;
+        margin: .5rem 1rem 0;
+    }
+
+    /* contenedor de la imagen */
+    .img-wrapper {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.4s ease;
+    }
+
+    /* cuando se abre */
+    .img-wrapper.open {
+        max-height: 500px; /* suficiente para la imagen */
+    }
+
+    .img-setup {
+        width: 100%;
+        display: block;
+    }
+    .guia{
+        width: 100%;
+    }
+}
