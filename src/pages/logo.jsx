@@ -13,7 +13,6 @@ export default function LogoTipo(){
                 <video 
                     src={Tonny} 
                     controls
-                    loop
                     className="media-a"
                 />
             </div>

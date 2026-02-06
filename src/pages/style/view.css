@@ -35,6 +35,11 @@
     bottom: 3dvh;
 }
 @media screen and (max-width:1200px) {
+    h1{
+        text-align: center;
+        font-family: cursive;
+        padding: 2rem 0;
+    }
     .homeBG{
         /* background-image: url(../../img/skateBG.jpeg); */
         background-position: center;
