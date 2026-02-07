@@ -7,7 +7,7 @@ export default function Nav(){
                     <li><a href="#historia">HISTORIA</a></li>
                     <li><a href="#setup">SETUP</a></li>
                     <li><a href="">TRICK LIST</a></li>
-                    <li><a href="">CULTURA</a></li>
+                    <li><a href="#cultura">CULTURA</a></li>
                 </ul>
             </nav>
         </div>

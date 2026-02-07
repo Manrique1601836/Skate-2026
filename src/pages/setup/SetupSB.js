@@ -14,7 +14,7 @@ export const SetupSB = [
     {id: 30, img: Ruedas, nombre: "Ruedas"},
     {id: 40, img: Trucks, nombre: "Trucks"},
     {id: 50, img: Rodamientos, nombre: "Rodamientos"},
-    {id: 60, img: PersonS, nombre: "PersonS"},
-    {id: 70, img: Elev, nombre: "Elev"},
+    {id: 60, img: PersonS, nombre: "KingPin"},
+    {id: 70, img: Elev, nombre: "Elevadores"},
     {id: 80, img: Bushing, nombre: "Bushing"}
 ]

@@ -5,6 +5,7 @@ import Home from "./home"
 import LogoTipo from "./logo"
 import Historia from "./historia"
 import Setup from "./setup"
+import Cultura from "./cultura"
 
 export default function Views(){
     return(
@@ -16,6 +17,9 @@ export default function Views(){
             </section>
             <section id="setup">
                 <Setup/>
+            </section>
+            <section id="cultura">
+                <Cultura/>
             </section>
         </>
 
