@@ -21,7 +21,7 @@ export default function Cultura(){
                     </div>
                     <div className="r-text-p">
                         <img src={PosR} alt="" className="posSk"/>
-                        <p>Pie izquierdo en el nose y el drecho en el tail</p>
+                        <p>Pie izquierdo en el nose y el derecho en el tail</p>
                     </div>
                 </div>
 
