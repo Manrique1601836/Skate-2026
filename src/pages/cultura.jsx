@@ -41,10 +41,12 @@ export default function Cultura(){
                 <h1>Comunidad</h1>
                 <br />
                 {CulturaSK.map((item) => (
-                    <img
-                        src={item.img}
-                        className="img-sk"
-                    />
+                    <div className="img-sk" key={item.id}>
+                        <img
+                            src={item.img}
+                            className="img-sk"
+                        />
+                    </div>
                 ))}
             </div>
         </>

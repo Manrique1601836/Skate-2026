@@ -6,9 +6,9 @@ import C4 from "./cul4.jpg"
 import C5 from "./cul5.jpg"
 
 export const CulturaSK = [
-    {img: C1, nombre: ""},
-    {img: C2, nombre: ""},
-    {img: C3, nombre: ""},
-    {img: C4, nombre: ""},
-    {img: C5, nombre: ""}
+    {id: 1010,img: C1, nombre: ""},
+    {id: 2020,img: C2, nombre: ""},
+    {id: 3030,img: C3, nombre: ""},
+    {id: 4040,img: C4, nombre: ""},
+    {id: 5050,img: C5, nombre: ""}
 ]

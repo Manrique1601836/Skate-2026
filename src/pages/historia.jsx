@@ -22,10 +22,9 @@ export default function Historia(){
                         <p>{item.nombre}</p>
                         <div className="img-group">
                             {item.imagen.map((img) => (
-                                <div className="img-s">
+                                <div className="img-s" key={img.subId}>
                                     <p>{img.subName}</p>
                                     <img
-                                        key={img.subId}
                                         src={img.subImg}
                                         alt={img.subName}
                                         className="img-h"

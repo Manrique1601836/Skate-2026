@@ -17,7 +17,7 @@ import Ot2 from "./O2.jpeg"
 export const ImgHistoria = [
 
     {id: 1, imagen: [
-        {subId:21, subImg:S1950, subName: "Skate 1950 - Primeros Skate"},
+        {subId:11, subImg:S1950, subName: "Skate 1950 - Primeros Skate"},
     ], nombre: ""},
 
     {id: 2, imagen: [
